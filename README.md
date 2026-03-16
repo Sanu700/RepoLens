@@ -1,6 +1,6 @@
 # 🔍 RepoLens
 
-> **Analyze any GitHub repository instantly.** Deep analytics, productivity scores, AI-powered insights, and improvement suggestions — all in one dashboard.
+> **Analyze any GitHub repository or developer profile instantly.** Deep analytics, productivity scores, AI-powered insights, and improvement suggestions — all in one dashboard.
 
 ![RepoLens Dashboard](https://img.shields.io/badge/RepoLens-v1.0.0-00d4ff?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react)
@@ -12,11 +12,20 @@
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[repo-lens-ivory.vercel.app](https://repo-lens-ivory.vercel.app)**
+
+Try it with: `torvalds` · `gaearon` · `sindresorhus` · `Sanu700`
+
+---
+
 ## ✨ Features
 
 - 📊 **Repository Overview** — Stars, forks, contributors, commits, languages, last activity
 - 📈 **Analytics Charts** — Commit timeline, language distribution, contributor activity
 - 🏆 **Productivity Score** — 0–100 score based on 6 key health metrics
+- 👤 **Profile Analysis** — Dev persona, skill radar, coding habits, and profile improvement suggestions
 - 💡 **Smart Insights** — Auto-generated observations about repo health
 - 🛠️ **Improvement Suggestions** — Prioritized, actionable recommendations
 - ⚡ **Fast** — Parallel API calls for sub-second analysis
@@ -32,8 +41,8 @@
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/repolens
-cd repolens
+git clone https://github.com/Sanu700/RepoLens
+cd RepoLens
 ```
 
 ### Backend
