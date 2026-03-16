@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: repolens-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3001
+      - key: GITHUB_TOKEN
+        sync: false   # Set this manually in Render dashboard
+    autoDeploy: true
